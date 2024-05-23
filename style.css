@@ -1,0 +1,72 @@
+html, body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+#logo {
+  width: 500px;
+  height: 150px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Добавлено */
+  align-items: center; /* Добавлено */
+}
+
+.flex-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topvan {
+  background-color: rgb(2, 4, 12);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 4rem;
+}
+
+#search {
+  width: 250px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 100px;
+  padding: 30px 40px;
+}
+
+#przeslij {
+  width: 60px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  color: #577cdf;
+  border-radius: 10px;
+  padding: 0px 0px;
+}
+
+#cart {
+  width: 50px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  color: #577cdf;
+  border-radius: 10px;
+  padding: 0px 0px;
+}
+
+.card {
+  background-color: rgb(255, 123, 123);
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
